@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .flexContainer{
+        display: inline-block;
+        margin-top:50px;
+        h1{
+            font-size: 2.25rem;
+            font-weight: lighter;
+        }
+    }
+    
+}

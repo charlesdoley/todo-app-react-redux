@@ -1,0 +1,22 @@
+.gridDisplay {
+    display: grid;
+    margin-top:30px;
+    grid-template-columns: 50% 50%;
+    h2{
+        font-size: 1.25rem;
+        color: var(--dark-grey);
+        font-weight: normal;
+    }
+    ul{
+        margin:0;
+        padding: 0;
+    }
+    .loadMore{
+        font-style: italic;
+        font-size: 0.875rem;
+        color: var(--dark-grey);
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
